@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.5//EN"
+        "http://struts.apache.org/dtds/struts-2.5.dtd">
+
+<!--constant标签以及name和value属性用于覆盖default.properties中任一属性
+设置struts.devMode属性允许我们在日志文件中查看更多的调试消息-->
+<!--    <constant name="struts.devMode" value="false"/>-->
+<!--    <constant name="struts.multipart.maxSize" value="1000000"/>-->
+<!--    <package name="helloworld" extends="struts-default">-->
+<!--&lt;!&ndash;        <interceptors>&ndash;&gt;-->
+<!--&lt;!&ndash;            <interceptor name="myinterceptor" class="MyInterceptor">&ndash;&gt;-->
+
+<!--&lt;!&ndash;            </interceptor>&ndash;&gt;-->
+<!--&lt;!&ndash;        </interceptors>&ndash;&gt;-->
+<!--        &lt;!&ndash;action标签对应于我们想访问的每个url，-->
+<!--        并使用execute方法定义一个访问相应的url时将要访问的类&ndash;&gt;-->
+<!--        <action name="upload" class="Action.UploadFile">-->
+<!--            <interceptor-ref name="basicStack">-->
+
+<!--            </interceptor-ref>-->
+
+
+<!--            <interceptor-ref name="fileUpload">-->
+<!--                <param name="allowedTypes">-->
+<!--                    image/jpeg,image/gif-->
+<!--                </param>-->
+<!--            </interceptor-ref>-->
+<!--            &lt;!&ndash;确定在执行操作后返回到浏览器的内容，&ndash;&gt;-->
+<!--            <result name="success">-->
+<!--                /jsp/success.jsp-->
+<!--            </result>-->
+<!--            <result name="error">-->
+<!--                /jsp/error.jsp-->
+<!--            </result>-->
+<!--            <result name="error">jsp/AcessDenied.jsp</result>-->
+<!--        </action>-->
+<!--    </package>-->
+
+<!--    <constant name="struts.devMode" value="true"/>-->
+<!--    <package name="helloworld" extends="struts-default">-->
+<!--        <action name="loginaction" class="Action.LoginAction" method="execute">-->
+<!--            <result name="success">-->
+<!--                /jsp/successLogin.jsp-->
+<!--            </result>-->
+<!--        </action>-->
+<!--        <action name="empinfo" method="execute" class="Action.Employee">-->
+<!--            <result name="input">/index.jsp</result>-->
+<!--            <result name="success">/jsp/success.jsp</result>-->
+<!--        </action>-->
+<!--    </package>--><struts>
+
+</struts>
